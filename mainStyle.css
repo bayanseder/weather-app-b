@@ -4,3 +4,33 @@ body{
     padding: 0;
     text-align: center;
 }
+.header_titel{
+    font-size: xx-large;
+}
+.header_section_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ul_style{
+    list-style: none;
+}
+
+.daily_section_style{
+    display: flex;
+    flex-direction: column;
+}
+.daily_div_style{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media (min-width: 600px) and (max-width: 1600px) {
+    .daily_section_style{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .daily_div_style{
+        flex-direction: column;
+    }
+
+}
